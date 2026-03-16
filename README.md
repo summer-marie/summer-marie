@@ -64,7 +64,7 @@ A complete e-commerce solution built for a small business pizza shop, handling r
 
 I'm eager to contribute to a team and grow as a developer. If you're looking for someone who's passionate, quick to learn, and ready to take on new challenges, let's talk!
 
-📧 **Email:** [your-email@example.com](mailto:casperlink444@gmail.com)
+📧 **Email:** [casperlink444@gmail.com](mailto:casperlink444@gmail.com)
 
 ---
 
