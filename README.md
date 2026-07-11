@@ -1,10 +1,33 @@
-# About me
-
 # Hi there, I'm Summer! 😎
 
-## 🚀 About Me
-
 I'm a **Full-Stack Developer** and recent graduate actively seeking my first professional opportunity in tech. I'm passionate about building scalable, user-friendly applications and have hands-on experience delivering real-world solutions for clients.
+
+## 📊 Contribution Map
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=summer-marie&theme=react-dark&hide_border=true)
+
+## 🔥 Contribution History
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=summer-marie&theme=radical&hide_border=true)
+
+## 📌 Pinned / Featured Projects
+
+<!-- These link out to whatever repos are pinned on the profile — swap/reorder to match. -->
+
+### 🍕 [Full-Stack E-Commerce Platform](https://github.com/summer-marie/ecommerce-production) (Live in Production)
+A complete e-commerce solution built for a small business pizza shop, handling real transactions and customer orders.
+
+**Key Features:** Square API payments, JWT/Passport.js auth, real-time order management, automated email via SendGrid, Sentry error tracking, rate limiting.
+
+**Tech Stack:** React 19, Redux Toolkit, Node.js, Express.js, MongoDB, Vite, Tailwind CSS
+
+### 🎨 [portfolio-2026](https://github.com/summer-marie/portfolio-2026)
+Current personal portfolio site build.
+
+### 🤖 [rag-python](https://github.com/summer-marie/rag-python)
+Retrieval-augmented generation project exploring Python-based AI tooling.
+
+## 🚀 About Me
 
 🔭 **Currently:** Maintaining my first live production application - a full-stack e-commerce platform for a local pizza business
 
@@ -12,12 +35,19 @@ I'm a **Full-Stack Developer** and recent graduate actively seeking my first pro
 
 💼 **Open to:** Full-time positions, internships, and collaboration opportunities
 
+## 🗓️ This Week's Workflow
+
+<!--WORKFLOW:START-->
+_Auto-generated weekly from recent GitHub activity — check back soon!_
+<!--WORKFLOW:END-->
+
 ## 🛠️ Tech Stack
 
 ### Frontend
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -27,6 +57,7 @@ I'm a **Full-Stack Developer** and recent graduate actively seeking my first pro
 ### Backend
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white)
 
@@ -43,22 +74,6 @@ I'm a **Full-Stack Developer** and recent graduate actively seeking my first pro
 - **State Management:** Redux Toolkit
 - **Database:** MongoDB with Mongoose ODM
 - **Logging & Monitoring:** Pino, Sentry
-
-## 💡 Featured Project
-
-### 🍕 Full-Stack E-Commerce Platform (Live in Production)
-A complete e-commerce solution built for a small business pizza shop, handling real transactions and customer orders.
-
-**Key Features:**
-- Secure payment processing with Square API integration
-- User authentication and authorization (JWT, Passport.js)
-- Real-time order management system
-- Automated email notifications (SendGrid)
-- Error tracking and monitoring (Sentry)
-- Rate limiting and security best practices
-- Responsive design for mobile and desktop
-
-**Tech Stack:** React 19, Redux Toolkit, Node.js, Express.js, MongoDB, Vite, Tailwind CSS
 
 ## 📫 Let's Connect!
 

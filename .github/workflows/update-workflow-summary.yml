@@ -1,0 +1,37 @@
+name: Update Workflow Summary
+
+on:
+  schedule:
+    - cron: "0 13 * * 1" # Mondays ~9am ET
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-summary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate summary
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node .github/scripts/generate-summary.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- README.md; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git add README.md
+          git commit -m "chore: update weekly workflow summary"
+          git push
