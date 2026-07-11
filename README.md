@@ -28,14 +28,14 @@ This week I've been actively working on my conditions-translator project, where 
 
 ## 🛠️ Tech Stack
 
-<table>
+<table width="100%">
 <tr>
-<th>Frontend</th>
-<th>Backend & Databases</th>
-<th>Tools & Testing</th>
+<th width="34%">Frontend</th>
+<th width="33%">Backend & Databases</th>
+<th width="33%">Tools & Testing</th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" width="34%">
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/><br/>
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/><br/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/><br/>
@@ -47,7 +47,7 @@ This week I've been actively working on my conditions-translator project, where 
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/><br/>
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
 </td>
-<td valign="top">
+<td valign="top" width="33%">
 <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/><br/>
 <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/><br/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/><br/>
@@ -59,7 +59,7 @@ This week I've been actively working on my conditions-translator project, where 
 <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/><br/>
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
 </td>
-<td valign="top">
+<td valign="top" width="33%">
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/><br/>
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/><br/>
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/><br/>
@@ -101,16 +101,16 @@ This week I've been actively working on my conditions-translator project, where 
 
 I'm eager to contribute to a team and grow as a developer. If you're looking for someone who's passionate, quick to learn, and ready to take on new challenges, let's talk!
 
-<table>
+<table width="100%">
 <tr>
-<td align="center">
+<td align="center" width="50%">
 
 📧 **Email**
 
 [casperlink444@gmail.com](mailto:casperlink444@gmail.com)
 
 </td>
-<td align="center">
+<td align="center" width="50%">
 
 **Profile Views**
 
