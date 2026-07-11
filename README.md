@@ -1,15 +1,9 @@
-# Hi, I'm Summer
-### Full-Stack Developer | Recent Grad | Actively seeking my first professional opportunity in tech
-
-I'm passionate about building scalable, user-friendly applications and have hands-on experience delivering real-world solutions for clients.
+Summer Halsey
+### Full-Stack Developer — Recent grad, building scalable apps
 
 <!--CURRENTLY:START-->
 🔭 **Currently:** Actively building [`conditions-translator`](https://github.com/summer-marie/conditions-translator).
 <!--CURRENTLY:END-->
-
-🌱 **Learning:** Full-stack development with Next.js, Prisma, and PostgreSQL (Neon), and DevOps strategies for production environments
-
-💼 **Open to:** Full-time positions, internships, and collaboration opportunities
 
 ## 🗓️ This Week's Workflow
 
