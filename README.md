@@ -21,10 +21,6 @@ This week I've been actively working on my conditions-translator project, where 
 
 <table>
 <tr>
-<td width="50%"><img src="https://github-readme-stats.vercel.app/api?username=summer-marie&show_icons=true&theme=radical" alt="GitHub Stats" width="100%"/></td>
-<td width="50%"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=summer-marie&layout=compact&theme=radical" alt="Top Languages" width="100%"/></td>
-</tr>
-<tr>
 <td width="50%"><img src="https://streak-stats.demolab.com/?user=summer-marie&theme=radical&hide_border=true" alt="GitHub Streak" width="100%"/></td>
 <td width="50%"><img src="https://github-readme-activity-graph.vercel.app/graph?username=summer-marie&theme=react-dark&hide_border=true" alt="Activity Graph" width="100%"/></td>
 </tr>
