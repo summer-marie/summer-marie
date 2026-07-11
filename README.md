@@ -99,24 +99,7 @@ This week I've been actively working on my conditions-translator project, where 
 
 I'm eager to contribute to a team and grow as a developer. If you're looking for someone who's passionate, quick to learn, and ready to take on new challenges, let's talk!
 
-<table width="100%">
-<tr>
-<td align="center" width="500%">
-
-📧 **Email**
-
-[casperlink444@gmail.com](mailto:casperlink444@gmail.com)
-
-</td>
-<td align="center" width="50%">
-
-**Profile Views**
-
-<img src="https://komarev.com/ghpvc/?username=summer-marie&color=blueviolet&style=flat" alt="Profile Views"/>
-
-</td>
-</tr>
-</table>
+📧 **Email:** [casperlink444@gmail.com](mailto:casperlink444@gmail.com)
 
 ---
 
