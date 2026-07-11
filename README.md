@@ -27,7 +27,7 @@ This week I've been actively working on my conditions-translator project, where 
 </table>
 
 ## 🛠️ Tech Stack
-
+<div>
 <table width="100%">
 <tr>
 <th width="34%">Frontend</th>
@@ -71,6 +71,7 @@ This week I've been actively working on my conditions-translator project, where 
 </td>
 </tr>
 </table>
+</div>
 
 ## ⚙️ Core Competencies
 
