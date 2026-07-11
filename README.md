@@ -29,9 +29,11 @@ Retrieval-augmented generation project exploring Python-based AI tooling.
 
 ## 🚀 About Me
 
-🔭 **Currently:** Maintaining my first live production application - a full-stack e-commerce platform for a local pizza business
+<!--CURRENTLY:START-->
+🔭 **Currently:** Working on personal projects and contract work.
+<!--CURRENTLY:END-->
 
-🌱 **Learning:** Testing frameworks (Jest, React Testing Library) and DevOps strategies for production environments
+🌱 **Learning:** Full-stack development with Next.js, Prisma, and PostgreSQL (Neon), and DevOps strategies for production environments
 
 💼 **Open to:** Full-time positions, internships, and collaboration opportunities
 

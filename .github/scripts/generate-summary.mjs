@@ -1,9 +1,8 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
 const GITHUB_USERNAME = "summer-marie";
+const PROFILE_REPO = "summer-marie";
 const README_PATH = "README.md";
-const START_MARKER = "<!--WORKFLOW:START-->";
-const END_MARKER = "<!--WORKFLOW:END-->";
 
 const githubToken = process.env.GITHUB_TOKEN;
 const anthropicKey = process.env.ANTHROPIC_API_KEY;
@@ -11,15 +10,15 @@ const anthropicKey = process.env.ANTHROPIC_API_KEY;
 if (!githubToken) throw new Error("Missing GITHUB_TOKEN");
 if (!anthropicKey) throw new Error("Missing ANTHROPIC_API_KEY");
 
+const githubHeaders = {
+  Authorization: `Bearer ${githubToken}`,
+  Accept: "application/vnd.github+json",
+};
+
 async function fetchRecentActivity() {
   const res = await fetch(
     `https://api.github.com/users/${GITHUB_USERNAME}/events/public?per_page=100`,
-    {
-      headers: {
-        Authorization: `Bearer ${githubToken}`,
-        Accept: "application/vnd.github+json",
-      },
-    }
+    { headers: githubHeaders }
   );
   if (!res.ok) {
     throw new Error(`GitHub API error: ${res.status} ${await res.text()}`);
@@ -74,22 +73,56 @@ async function summarizeWithClaude(activity) {
   return data.content?.[0]?.text?.trim() ?? "Summary unavailable this week.";
 }
 
-function updateReadme(summary) {
-  const readme = readFileSync(README_PATH, "utf8");
-  const startIdx = readme.indexOf(START_MARKER);
-  const endIdx = readme.indexOf(END_MARKER);
+async function fetchCurrentlyLine() {
+  const res = await fetch(
+    `https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=pushed&per_page=10&type=owner`,
+    { headers: githubHeaders }
+  );
+  if (!res.ok) {
+    throw new Error(`GitHub API error: ${res.status} ${await res.text()}`);
+  }
+  const repos = await res.json();
 
-  if (startIdx === -1 || endIdx === -1) {
-    throw new Error("Workflow markers not found in README.md");
+  const project = repos.find((r) => !r.fork && r.name !== PROFILE_REPO);
+
+  if (!project) {
+    return "🔭 **Currently:** Working on personal projects and contract work.";
   }
 
-  const before = readme.slice(0, startIdx + START_MARKER.length);
-  const after = readme.slice(endIdx);
-  const updated = `${before}\n${summary}\n${after}`;
+  const description = project.description ? ` — ${project.description}` : "";
+  return `🔭 **Currently:** Actively building [\`${project.name}\`](${project.html_url})${description}.`;
+}
 
-  writeFileSync(README_PATH, updated, "utf8");
+function replaceBlock(readme, marker, content) {
+  const startMarker = `<!--${marker}:START-->`;
+  const endMarker = `<!--${marker}:END-->`;
+  const startIdx = readme.indexOf(startMarker);
+  const endIdx = readme.indexOf(endMarker);
+
+  if (startIdx === -1 || endIdx === -1) {
+    throw new Error(`${marker} markers not found in README.md`);
+  }
+
+  const before = readme.slice(0, startIdx + startMarker.length);
+  const after = readme.slice(endIdx);
+  return `${before}\n${content}\n${after}`;
+}
+
+function updateReadme(blocks) {
+  let readme = readFileSync(README_PATH, "utf8");
+  for (const [marker, content] of Object.entries(blocks)) {
+    readme = replaceBlock(readme, marker, content);
+  }
+  writeFileSync(README_PATH, readme, "utf8");
 }
 
 const activity = await fetchRecentActivity();
-const summary = await summarizeWithClaude(activity);
-updateReadme(summary);
+const [summary, currentlyLine] = await Promise.all([
+  summarizeWithClaude(activity),
+  fetchCurrentlyLine(),
+]);
+
+updateReadme({
+  WORKFLOW: summary,
+  CURRENTLY: currentlyLine,
+});
