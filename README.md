@@ -38,7 +38,7 @@ Retrieval-augmented generation project exploring Python-based AI tooling.
 ## 🗓️ This Week's Workflow
 
 <!--WORKFLOW:START-->
-This week I've been focused on the conditions-translator project, where I created new branches, opened pull requests, and pushed updates to refine the codebase. I also started work on my portfolio-2026 project, setting up the initial structure and making my first commits. Between these projects and updates to my profile repository, it's been a productive week of building and iterating!
+This week I've been focused on the conditions-translator project, where I created new branches, opened pull requests, and pushed several updates. I also worked on my portfolio-2026 project, setting up a new repository and getting some initial commits in. Additionally, I made some updates to my main profile repository.
 <!--WORKFLOW:END-->
 
 ## 🛠️ Tech Stack
