@@ -30,7 +30,7 @@ Retrieval-augmented generation project exploring Python-based AI tooling.
 ## 🚀 About Me
 
 <!--CURRENTLY:START-->
-🔭 **Currently:** Working on personal projects and contract work.
+🔭 **Currently:** Actively building [`conditions-translator`](https://github.com/summer-marie/conditions-translator).
 <!--CURRENTLY:END-->
 
 🌱 **Learning:** Full-stack development with Next.js, Prisma, and PostgreSQL (Neon), and DevOps strategies for production environments
@@ -40,7 +40,7 @@ Retrieval-augmented generation project exploring Python-based AI tooling.
 ## 🗓️ This Week's Workflow
 
 <!--WORKFLOW:START-->
-This week I've been focused on the conditions-translator project, where I created new branches, opened pull requests, and pushed several updates. I also worked on my portfolio-2026 project, setting up a new repository and getting some initial commits in. Additionally, I made some updates to my main profile repository.
+This week I've been actively working on my conditions-translator project, where I created new branches, opened pull requests, and pushed updates. I also spent time refining my portfolio-2026 site and made several commits to my profile repository. It's been a productive week of building and iterating on a few key projects!
 <!--WORKFLOW:END-->
 
 ## 🛠️ Tech Stack
