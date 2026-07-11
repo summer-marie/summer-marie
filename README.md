@@ -1,4 +1,4 @@
-# Hi there, I'm Summer! 😎
+# Hi, I'm Summer
 ### Full-Stack Developer | Recent Grad | Actively seeking my first professional opportunity in tech
 
 I'm passionate about building scalable, user-friendly applications and have hands-on experience delivering real-world solutions for clients.
