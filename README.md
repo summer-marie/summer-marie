@@ -1,9 +1,13 @@
-Summer Halsey
-**Email:** [casperlink444@gmail.com](mailto:casperlink444@gmail.com)
-### Full-Stack Developer — Recent grad, building scalable apps
+<div align="center">
+
+# Summer Halsey
+Full-Stack Developer — Recent grad, building scalable apps  
+📧 [casperlink444@gmail.com](mailto:casperlink444@gmail.com)
+
+</div>
 
 <!--CURRENTLY:START-->
-🔭 **Currently:** Actively building [`conditions-translator`](https://github.com/summer-marie/conditions-translator).
+**Currently:** Actively building [`conditions-translator`](https://github.com/summer-marie/conditions-translator).
 <!--CURRENTLY:END-->
 
 ## 🗓️ This Week's Workflow
