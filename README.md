@@ -10,23 +10,6 @@ I'm a **Full-Stack Developer** and recent graduate actively seeking my first pro
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=summer-marie&theme=radical&hide_border=true)
 
-## 📌 Pinned / Featured Projects
-
-<!-- These link out to whatever repos are pinned on the profile — swap/reorder to match. -->
-
-### 🍕 [Full-Stack E-Commerce Platform](https://github.com/summer-marie/ecommerce-production) (Live in Production)
-A complete e-commerce solution built for a small business pizza shop, handling real transactions and customer orders.
-
-**Key Features:** Square API payments, JWT/Passport.js auth, real-time order management, automated email via SendGrid, Sentry error tracking, rate limiting.
-
-**Tech Stack:** React 19, Redux Toolkit, Node.js, Express.js, MongoDB, Vite, Tailwind CSS
-
-### 🎨 [portfolio-2026](https://github.com/summer-marie/portfolio-2026)
-Current personal portfolio site build.
-
-### 🤖 [rag-python](https://github.com/summer-marie/rag-python)
-Retrieval-augmented generation project exploring Python-based AI tooling.
-
 ## 🚀 About Me
 
 <!--CURRENTLY:START-->
