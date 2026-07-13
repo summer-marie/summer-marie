@@ -7,13 +7,13 @@ Full-Stack Developer — Recent grad, building scalable apps
 </div>
 
 <!--CURRENTLY:START-->
-**Currently:** Actively building [`conditions-translator`](https://github.com/summer-marie/conditions-translator).
+🔭 **Currently:** Actively building [`conditions-translator`](https://github.com/summer-marie/conditions-translator).
 <!--CURRENTLY:END-->
 
 ## 🗓️ This Week's Workflow
 
 <!--WORKFLOW:START-->
-This week I've been actively working on my conditions-translator project, where I created new branches, opened pull requests, and pushed updates. I also spent time refining my portfolio-2026 site and made several commits to my profile repository. It's been a productive week of building and iterating on a few key projects!
+This week I've been heavily focused on the conditions-translator project, working through multiple iterations with lots of branch creation, deletion, and pull requests as I refined the codebase. I also spent time updating my portfolio-2026 and made some updates to my profile repository. It's been a productive week of active development and experimentation!
 <!--WORKFLOW:END-->
 
 ## 📊 GitHub Analytics
