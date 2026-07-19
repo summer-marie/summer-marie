@@ -1,7 +1,7 @@
 <div align="center">
 
 # Summer Halsey
-Full-Stack Developer — Recent grad, building scalable apps  
+Full-Stack Engineer | Building AI-powered software that solves real-world problems
 📧 [casperlink444@gmail.com](mailto:casperlink444@gmail.com)
 
 </div>
