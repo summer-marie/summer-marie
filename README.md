@@ -13,7 +13,7 @@ Full-Stack Engineer | Building AI-powered software that solves real-world proble
 ## 🗓️ This Week's Workflow
 
 <!--WORKFLOW:START-->
-I've been actively working on the conditions-translator project this week, with lots of branch creation, deletion, and pull request activity as I've iterated on the codebase. Most of my work has involved pushing changes and managing pull requests across multiple branches, suggesting I was experimenting with different approaches or features. I also made a quick update to my main profile repository earlier in the week.
+This week I've been deeply focused on my react-portfolio project, with lots of active branch creation and management as I've iterated on various features and improvements. I also pushed some updates to my conditions-translator repository towards the end of the week. It's been a productive stretch of development across these two projects!
 <!--WORKFLOW:END-->
 
 ## 📊 GitHub Analytics
