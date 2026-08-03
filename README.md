@@ -13,7 +13,7 @@ Full-Stack Engineer | Building AI-powered software that solves real-world proble
 ## 🗓️ This Week's Workflow
 
 <!--WORKFLOW:START-->
-This week I've been deeply focused on my react-portfolio project, with lots of active branch creation and management as I've iterated on various features and improvements. I also pushed some updates to my conditions-translator repository towards the end of the week. It's been a productive stretch of development across these two projects!
+Quiet week on GitHub — no public activity in the last 7 days.
 <!--WORKFLOW:END-->
 
 ## 📊 GitHub Analytics
